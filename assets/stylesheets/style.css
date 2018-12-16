@@ -427,3 +427,38 @@ form {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
 }
+    .axis text {
+        font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .bar {
+        fill: steelblue;
+        fill-opacity: .9;
+    }
+
+        .bar:hover {
+            fill: brown;
+        }
+
+    .x.axis path {
+        display: none;
+    }
+
+
+
+    .d3-tip {
+        line-height: 1;
+        font-weight: bold;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 2px;
+		position: relative !IMPORTANT;
+    }
