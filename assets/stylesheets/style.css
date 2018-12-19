@@ -70,6 +70,42 @@ nav ul li a {
   text-decoration: none; 
   color: #a9abae;
 }
+}
+	@media screen and (max-width: 768px) {
+		#menu {
+			width:100%;
+			display: block;
+			background:#292f36;
+			font-size:1.35em;
+			text-align: center;
+			color:#fff;
+			
+		}
+		#nav.js {
+			display: none;
+
+		}
+		nav ul {
+			width:100%;
+			list-style:none;
+			background:#292f36;
+			position: fixed;
+	
+		}
+		nav ul li {
+			width:100%;
+			text-align: center;
+			color:#070a0f;
+
+		}
+		
+	}
+
+	@media screen and (min-width: 768px) {
+		#menu {
+			display: none;
+		}
+}
 
 body {
     font-size: 14px;
