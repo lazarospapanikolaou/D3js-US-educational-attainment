@@ -104,11 +104,11 @@ lineChart.append("path")
 
 var points = lineChart.selectAll("dot")
 	.data(data)
-    .enter().append("circle")
+    	.enter().append("circle")
 	.attr("class","pionts")
-    .attr("r", 5)
-    .attr("cx", function(d) { return xScale(d.date); })
-    .attr("cy", function(d) { return yScale(d.value); });
+    	.attr("r", 5)
+    	.attr("cx", function(d) { return xScale(d.date); })
+    	.attr("cy", function(d) { return yScale(d.value); });
 
 lineChart.on("mouseover", function(){points.style("display",null);});
 lineChart.on("mouseout", function(){points.style("display","none");});
