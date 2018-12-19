@@ -1,6 +1,6 @@
-var margin = 10;
-var width = 480,
-    height = 300;
+var margin = 20;
+var width = 580,
+    height = 400;
 
 var radius = ((Math.min((width - margin), (height - margin)) / 2) * 0.9  ),
 		outerRadius = radius - margin,
