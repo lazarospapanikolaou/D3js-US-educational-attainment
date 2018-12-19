@@ -224,30 +224,6 @@ polyline{
     font-style: italic;
 }
 
-@media (min-width: 1281px) {
-  	.labelName {
-	    font-size: 0.9em;
-	    font-style: italic;
-	}
-}
-
-
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-   	.labelName {
-	    font-size: 0.9em;
-	    font-style: italic;
-	} 
-}
-
-
-@media (min-width: 320px) and (max-width: 480px) {
-	.labelName {
-	    font-size: 1.5em;
-	    font-style: italic;
-	}  
-}
-
 #pie-chart {
     display: block;
     margin: 0 auto;
@@ -261,6 +237,18 @@ polyline{
 #stacked-bar-chart {
     display: block;
     margin: 0 auto;
+}
+
+#bar-chart {
+    display: block;
+    margin: 0 auto;
+}
+#chart2{
+	display: block;
+	margin:0 auto;
+}
+#bar-chart rect {
+  fill: steelblue
 }
 
 .paragraph {
