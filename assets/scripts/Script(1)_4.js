@@ -9,11 +9,11 @@ var radius = ((Math.min((width - margin), (height - margin)) / 2) * 0.9  ),
 
 var data = [
 
-      {number: "Ρωμαιοκαθολικοί", rate: 31%},
-      {number: "Ισλαμιστές", rate: 6%},
-      {number: "Προτεστάντες", rate: 21%},
-      {number: "Άθεοι", rate: 40%},
-      {number: "Άλλες Θρησκείες", rate: 2%}
+      {number: "Ρωμαιοκαθολικοί", rate: 1.600.000.000},
+      {number: "Ισλαμιστές", rate: 500.000.000},
+      {number: "Προτεστάντες", rate: 900.000.000},
+      {number: "Άθεοι", rate: 2.800.000.000},
+      {number: "Άλλες Θρησκείες", rate:150.000.000}
       
     ];
 
